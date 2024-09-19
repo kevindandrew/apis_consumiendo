@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif; 
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.todo-app {
+    width: 500px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    margin-right: 4rem;
+    font-weight: 700;
+}
+
+.tablas{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(66, 66, 66, 0.349);
+    
+}
+
+.tab {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #333;
+    font-weight: 550;
+}
+
+.tab.active {
+
+    border-bottom: 2px solid hsl(214,84%,56%);
+}
+
+.cont-inp {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#inputsito {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    margin-right: 1rem;
+    height: 45px;
+}
+
+.botonsito {
+    padding: 10px 20px;
+    background-color: hsl(214,84%,56%);
+    color: white;
+    border: none;
+    border-radius:8px;
+    cursor: pointer;
+    width: 100px;
+    margin-right:1rem ;
+    height: 45px;
+}
+
+.lista {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.lista li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.lista input {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.lista label {
+    font-size: 10px;
+    color: #333;
+}
+
+
+.fa-solid{
+    color: red;
+    margin-left: 20rem;
+}
+.hidden{
+    display: none;
+}
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <!-- Link to Script -->
+  <script src="./main.js" defer></script>
+
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="./style.css">
+ <!-- FONT AWESOME -->
+  <script src="https://kit.fontawesome.com/0de9f04080.js" crossorigin="anonymous"></script>
+  <title>To-Do App</title>
+</head>
+<body>
+  <div class="todo-app">
+    <h1>#todo</h1>
+    <div class="tablas">
+        <button class="tab active all">All</button>
+        <button class="tab activesito">Active</button>
+        <button class="tab completed">Completed</button>
+    </div>
+
+    <div class="cont-inp">
+        <input type="text" placeholder="add details" id="inputsito">
+        <button class="botonsito">Add</button>
+    </div>
+
+    <ul class="lista" id="todo-list">
+        <!-- <li>
+            <input type="checkbox">
+            <label>Do coding challenges</label>
+        </li>
+        <li>
+            <input type="checkbox">
+            <label>Do coding challenges</label>
+        </li>
+        <li>
+          <input type="checkbox">
+          <label>Do coding challenges</label>
+      </li> -->
+    </ul>
+    <ul class="lista completados hidden">
+      <li>
+          <input type="checkbox">
+          <label>Do coding challenges</label>
+          <i class="fa-solid fa-box-archive"></i>
+      </li>
+      <li>
+          <input type="checkbox">
+          <label>Do coding challenges</label>
+          <i class="fa-solid fa-box-archive"></i>
+      </li>
+      <li>
+        <input type="checkbox">
+        <label>Do coding challenges</label>
+        <i class="fa-solid fa-box-archive"></i>
+    </li>
+  </ul>
+</div>
+</body>
+</html>
+
